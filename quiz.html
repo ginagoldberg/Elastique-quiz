@@ -2,6 +2,7 @@
 <html>
 <head>
   <title>Elastique Quiz</title>
+  <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="stylesheets/style.css" >
 </head>
 
@@ -77,34 +78,39 @@
   </form>
 
   <!-- Submit button -->
-  <form id="submit">
-    <input type="submit" name="submit" value="Klaar!">
+  <form>
+    <input id="submit" type="submit" name="submit" value="Klaar!">
   </form>
 
   <!-- Correct answers -->
-  <div id="answer0">
-    <p>Je hebt alles goed!</p>
+
+  <div id="resultlist">
+    <div id="answer0">
+      <p>Je hebt alles goed!</p>
+    </div>
+
+    <div id="answer1">
+      <p>Het juiste antwoord is <strong>6 uur</strong>.</p>
+    </div>
+
+    <div id="answer2">
+      <p>Het juiste antwoord is <strong>Vuurzee</strong>.</p>
+    </div>
+
+    <div id="answer3">
+      <p>Het juiste antwoord is <strong>lopen voorop in het implementeren van deze trends.</strong>.</p>
+    </div>
+
+    <div id="answer4">
+      <p>Het juiste antwoord is <strong>SVG</strong>.</p>
+    </div>
+
+    <div id="answer5">
+      <p>Het juiste antwoord is <strong>Montserrat</strong>.</p>
+    </div>
   </div>
 
-  <div id="answer1">
-    <p>Het juiste antwoord is <strong>6 uur</strong>.</p>
-  </div>
-
-  <div id="answer2">
-    <p>Het juiste antwoord is <strong>Vuurzee</strong>.</p>
-  </div>
-
-  <div id="answer3">
-    <p>Het juiste antwoord is <strong>lopen voorop in het implementeren van deze trends.</strong>.</p>
-  </div>
-
-  <div id="answer4">
-    <p>Het juiste antwoord is <strong>SVG</strong>.</p>
-  </div>
-
-  <div id="answer5">
-    <p>Het juiste antwoord is <strong>Montserrat</strong>.</p>
-  </div>
-
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+  <script type="text/javascript" src="javascripts/script.js"></script>
 </body>
 </html>
