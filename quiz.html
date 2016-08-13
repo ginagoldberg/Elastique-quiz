@@ -12,9 +12,18 @@
 <body>
   <h1>Elastique Quiz</h1>
 
-  <!-- Quiz questions -->
-  <!-- NOTE: Using labels for the answers to improve usability for users using a mouse - this way they can also select their answer by clicking the text  -->
+  <!-- Start button -->
+  <button class="w3-btn w3-dark-grey" id="start" onclick=" move(); ">Start!</button>
 
+
+  <!-- Bar showing the time that is left -->
+  <div class="w3-progress-container">
+    <div id="myBar" class="w3-progressbar w3-green" style="width:1%"></div>
+  </div>
+
+  <!-- Quiz questions -->
+  <!-- NOTE: Using labels for the answers to improve usability for users using a mouse
+  - this way they can also select their answer by clicking the text  -->
   <div class="card">
     <p class="question">1. Hoe lang moet je ongeveer lopen om van Amsterdam Centraal Station bij Elastique te komen?</p>
 
@@ -127,7 +136,9 @@
   </div>
 
   <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
-  <script type="text/javascript" src="javascripts/script.js"></script>
+  <script type="text/javascript" src="javascripts/start.js"></script>
+  <script type="text/javascript" src="javascripts/timer.js"></script>
+  <script type="text/javascript" src="javascripts/submit.js"></script>
 
 </body>
 </html>

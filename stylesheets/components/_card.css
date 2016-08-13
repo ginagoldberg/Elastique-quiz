@@ -7,6 +7,7 @@
   border: 1px solid #343434;
   text-align: left;
   color: #343434;
+  display: none;
 }
 
 .card .question {
