@@ -21,17 +21,23 @@ $(document).ready(function() {
       var wrong0 = (!wrong1 && !wrong2 && !wrong3 && !wrong4 && !wrong5);
 
       var incorrect = [];
+      var score = 500;
 
-      if (wrong1) { incorrect.push("1") };
-      if (wrong2) { incorrect.push("2") };
-      if (wrong3) { incorrect.push("3") };
-      if (wrong4) { incorrect.push("4") };
-      if (wrong5) { incorrect.push("5") };
+      if (wrong1) { incorrect.push("1"); score -= 100 };
+      if (wrong2) { incorrect.push("2"); score -= 100 };
+      if (wrong3) { incorrect.push("3"); score -= 100 };
+      if (wrong4) { incorrect.push("4"); score -= 100 };
+      if (wrong5) { incorrect.push("5"); score -= 100 };
       if (wrong0) { incorrect.push("Geen") };
+
+      var totalScore = 'Punten: ' + score;
+      $("#resultlist .score").text(totalScore);
+      $("#resultlist .score").show("slow");
 
       var resultStr = 'Je hebt de volgende vragen fout: ' + incorrect.join(', ') + '.';
       $("#resultlist .summary").text(resultStr);
       $("#resultlist .summary").show("slow");
+
 
       if (wrong1) { $("#answer1").show("slow"); };
       if (wrong2) { $("#answer2").show("slow"); };
