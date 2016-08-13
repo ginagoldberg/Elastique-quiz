@@ -28,6 +28,8 @@
   border-radius: 5px;
   background-color: lightgreen;
   color: green;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 14px;
 }
 
 .card .answers label:hover {

@@ -13,3 +13,7 @@ h1 {
   text-align: center;
 }
 
+p {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 15px;
+}
