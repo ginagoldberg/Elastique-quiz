@@ -5,6 +5,8 @@
 }
 
 h1 {
+  margin: 0;
+  padding: 20px;
   font-family: "Lobster", sans-serif;
   font-size: 3.5em;
   color: #32F101;
