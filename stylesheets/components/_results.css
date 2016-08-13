@@ -1,8 +1,7 @@
-#answerlist {
+#resultlist {
   margin-top: 6px;
-  display: none;
 }
 
-#answer1, #answer2, #answer3, #answer4, #answer5, #answer0 {
-  display:none;
+.summary, #answer1, #answer2, #answer3, #answer4, #answer5, #answer0 {
+  display: none;
 }
