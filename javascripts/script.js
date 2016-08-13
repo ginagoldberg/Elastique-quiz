@@ -29,16 +29,16 @@ $(document).ready(function() {
       if (wrong5) { incorrect.push("5") };
       if (wrong0) { incorrect.push("Geen") };
 
-      var resultStr = 'Je hebt de volgende vragen fout: ' + incorrect.join(', ');
-      $("#resultlist").text(resultStr);
-      $("#resultlist").slideToggle("slow");
+      var resultStr = 'Je hebt de volgende vragen fout: ' + incorrect.join(', ') + '.';
+      $("#resultlist .summary").text(resultStr);
+      $("#resultlist .summary").show("slow");
 
-      if (wrong1) { $("#answer1").slideToggle("slow"); };
-      if (wrong2) { $("#answer2").slideToggle("slow"); };
-      if (wrong3) { $("#answer3").slideToggle("slow"); };
-      if (wrong4) { $("#answer4").slideToggle("slow"); };
-      if (wrong5) { $("#answer5").slideToggle("slow"); };
-      if (wrong0) { $("#answer0").slideToggle("slow"); };
+      if (wrong1) { $("#answer1").show("slow"); };
+      if (wrong2) { $("#answer2").show("slow"); };
+      if (wrong3) { $("#answer3").show("slow"); };
+      if (wrong4) { $("#answer4").show("slow"); };
+      if (wrong5) { $("#answer5").show("slow"); };
+      if (wrong0) { $("#answer0").show("slow"); };
     }
   });});
 
