@@ -1,15 +1,8 @@
-body {
+#bg {
   background-image: linear-gradient(white, #32F101);
   text-align: center;
+  min-height: 100vh;
 }
-
- /* background: url("http://www.elastique.nl/content/home/space_odyssey2.gif");
-  background-size: contain;*/
-
-/*  background-size: cover;
-  background-blend-mode: multiply;
-  background-repeat: no-repeat;
-  background-position: center;*/
 
 h1 {
   font-family: "Lobster", sans-serif;

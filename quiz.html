@@ -10,18 +10,19 @@
 </head>
 
 <body>
-  <h1>Elastique Quiz</h1>
+  <div id="bg">
+    <h1>Elastique Quiz</h1>
 
-  <!-- Start button -->
-  <button class="w3-btn w3-dark-grey" id="start" onclick=" move(); ">Start!</button>
+    <!-- Start button -->
+    <button class="w3-btn w3-dark-grey" id="start" onclick=" move(); ">Start!</button>
 
 
-  <!-- Bar showing the time that is left -->
-  <div class="w3-progress-container">
-    <div id="myBar" class="w3-progressbar w3-green" style="width:1%"></div>
-  </div>
+    <!-- Bar showing the time that is left -->
+    <div class="w3-progress-container">
+      <div id="myBar" class="w3-progressbar w3-green" style="width:1%"></div>
+    </div>
 
-  <!-- Quiz questions -->
+    <!-- Quiz questions -->
   <!-- NOTE: Using labels for the answers to improve usability for users using a mouse
   - this way they can also select their answer by clicking the text  -->
   <div class="card">
@@ -101,37 +102,14 @@
 
   <!-- Submit button -->
   <form>
-    <input id="submit" type="submit" name="submit" value="Klaar!">
+    <input class="w3-btn w3-dark-grey" id="submit" type="submit" name="submit" value="Klaar!">
   </form>
 
   <!-- Correct answers -->
-
-  <div id="resultlist">
-    <div class="score"></div> <!-- add score  -->
-    <div class="summary"></div>
-
-    <div id="answer0">
-      <p>Je hebt alles goed!</p>
-    </div>
-
-    <div id="answer1">
-      <p>Het juiste antwoord is <strong>6 uur</strong>.</p>
-    </div>
-
-    <div id="answer2">
-      <p>Het juiste antwoord is <strong>Vuurzee</strong>.</p>
-    </div>
-
-    <div id="answer3">
-      <p>Het juiste antwoord is <strong>lopen voorop in het implementeren van deze trends.</strong>.</p>
-    </div>
-
-    <div id="answer4">
-      <p>Het juiste antwoord is <strong>SVG</strong>.</p>
-    </div>
-
-    <div id="answer5">
-      <p>Het juiste antwoord is <strong>Montserrat</strong>.</p>
+  <div class>
+    <div id="resultlist">
+      <div class="summary"></div>
+      <div class="score"></div>
     </div>
   </div>
 

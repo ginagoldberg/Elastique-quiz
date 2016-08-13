@@ -31,6 +31,10 @@ $(document).ready(function() {
       if (wrong5) { incorrect.push("5"); score -= 75 };
       if (wrong0) { incorrect.push("Geen") };
 
+      $(".w3-progress-container").hide("slow");
+      $(".card").hide("slow");
+      $("#submit").hide("slow");
+
       var totalScore = 'Punten: ' + score;
       $("#resultlist .score").text(totalScore);
       $("#resultlist .score").show("slow");
@@ -38,14 +42,6 @@ $(document).ready(function() {
       var resultStr = 'Je hebt de volgende vragen fout: ' + incorrect.join(', ') + '.';
       $("#resultlist .summary").text(resultStr);
       $("#resultlist .summary").show("slow");
-
-
-      if (wrong1) { $("#answer1").show("slow"); };
-      if (wrong2) { $("#answer2").show("slow"); };
-      if (wrong3) { $("#answer3").show("slow"); };
-      if (wrong4) { $("#answer4").show("slow"); };
-      if (wrong5) { $("#answer5").show("slow"); };
-      if (wrong0) { $("#answer0").show("slow"); };
     }
   });});
 

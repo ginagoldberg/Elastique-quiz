@@ -1,6 +1,9 @@
 #submit {
-  background-color: #343434;
-  color: white;
   padding: 15px 30px;
   display: none;
+}
+
+#start {
+  padding: 15px 30px;
+  margin-top: 125px;
 }
