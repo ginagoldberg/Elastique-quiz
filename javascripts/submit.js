@@ -45,9 +45,4 @@ $(document).ready(function() {
     }
   });});
 
-// TODO: slideToggle doesnt work yet... and remove showing answers at all!
 
-// TODO: calculate score and show score
-// TODO: have questions appear after each other?
-// TODO: timer
-// TODO: alert("You have run out of time!")
