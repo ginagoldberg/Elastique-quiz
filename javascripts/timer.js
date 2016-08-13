@@ -6,7 +6,8 @@ var width;
 function move() {
   var elem = document.getElementById("myBar");
   width = 1;
-  id = setInterval(frame, 300);
+  id = setInterval(frame, 600); // this sets how long each interval is in ms, 300 is total time of 30 seconds
+
   function frame() {
     if (width >= 100) {
       clearInterval(id);
