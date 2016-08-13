@@ -42,13 +42,6 @@ $(document).ready(function() {
       var resultStr = 'Je hebt de volgende vragen fout: ' + incorrect.join(', ') + '.';
       $("#resultlist .summary").text(resultStr);
       $("#resultlist .summary").show("slow");
-
-      if (wrong1) { $("#answer1").show("slow"); };
-      if (wrong2) { $("#answer2").show("slow"); };
-      if (wrong3) { $("#answer3").show("slow"); };
-      if (wrong4) { $("#answer4").show("slow"); };
-      if (wrong5) { $("#answer5").show("slow"); };
-      if (wrong0) { $("#answer0").show("slow"); };
     }
   });});
 
