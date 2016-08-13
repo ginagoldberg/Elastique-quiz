@@ -1,9 +1,11 @@
 #submit {
   padding: 15px 30px;
   display: none;
+  border-radius: 5px;
 }
 
 #start {
   padding: 15px 30px;
   margin-top: 125px;
+  border-radius: 5px;
 }
