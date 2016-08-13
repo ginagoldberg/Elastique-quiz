@@ -35,6 +35,7 @@ $(document).ready(function() {
       $(".card").hide("slow");
       $("#submit").hide("slow");
       $("#header").removeClass("white");
+      $(".results").show("slow");
 
       var totalScore = 'Punten: ' + score;
       $("#resultlist .score").text(totalScore);

@@ -1,7 +1,7 @@
 .w3-progress-container {
-  /*  position: fixed;*/
-/*  bottom: 0;*/
   display: none;
   padding-bottom: 10px;
+  width: 80%;
+  margin: auto;
 }
 

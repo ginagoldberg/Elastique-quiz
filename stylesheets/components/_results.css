@@ -5,3 +5,19 @@
 .summary, .score {
   display: none;
 }
+
+.results {
+  background-color: white;
+  color: #343434;
+  display: none;
+  width: 50%;
+  margin: auto;
+  box-shadow: 1px 1px 1px darkgrey;
+  border-radius: 5px;
+}
+
+.score {
+  font-weight: bold;
+  padding-bottom: 20px;
+  font-size: 20px;
+}

@@ -26,19 +26,23 @@
   margin: 0% 10% 2% 10%;
   padding: 5px 12px;
   border-radius: 5px;
-  background-color: lightgreen;
-  color: green;
+  background-color: #87CEEB;
+  color: #673AB7;
   font-family: "Noto Sans", sans-serif;
   font-size: 14px;
 }
 
 .card .answers label:hover {
-  background-color: green;
+  background-color: #673AB7;
   color: white;
 }
 
 .card input:checked + label{
-  background-color: green;
+  background-color: #673AB7;
   color: white;
   box-shadow: 1px 1px 1px darkgrey;
 }
+
+
+/* light-blue: #87CEEB
+deep-purple: #673AB7*/

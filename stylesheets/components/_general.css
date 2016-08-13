@@ -23,6 +23,7 @@ p {
   top: 0;
   left: 0;
   width: 100%;
+  padding-bottom: 35px;
 }
 
 .white {
@@ -30,5 +31,5 @@ p {
 }
 
 #body {
-  padding-top: 170px;
+  padding-top: 215px;
 }
