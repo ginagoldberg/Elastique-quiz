@@ -1,5 +1,6 @@
 .w3-progress-container {
-  position: fixed;
+  /*  position: fixed;*/
+/*  bottom: 0;*/
   display: none;
   padding-bottom: 10px;
 }

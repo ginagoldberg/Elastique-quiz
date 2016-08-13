@@ -4,6 +4,6 @@ $(document).ready(function() {
    $(".w3-progress-container").show("slow");
    $(".card").show("slow");
    $("#submit").show("slow");
-
+   $("#header").addClass("white");
  })
 });
