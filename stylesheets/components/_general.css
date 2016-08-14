@@ -33,3 +33,14 @@ p {
 #body {
   padding-top: 215px;
 }
+
+@media screen and (max-width: 350px) {
+  h1 {
+    font-size: 2.7em;
+  }
+
+  .results {
+    width: 60%;
+    margin: -50px auto;
+  }
+}
