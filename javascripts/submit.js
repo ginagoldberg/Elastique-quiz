@@ -1,7 +1,6 @@
 $(document).ready(function() {
   $("#submit").click(function(e) {
     e.preventDefault();
-    clearInterval(id);
 
     var question1 = $("input[name='q1']:checked").val();
     var question2 = $("input[name='q2']:checked").val();
@@ -13,6 +12,7 @@ $(document).ready(function() {
       { alert("Je bent nog niet klaar!");}
 
     else {
+      clearInterval(id);
 
       var wrong1 = (question1 != "b");
       var wrong2 = (question2 != "d");
